@@ -49,7 +49,7 @@ int main() {
     lesDataFraFil();
 
     for (int i = 0; i < gAntallSpm; i++) {
-        printf("Spørsmål nr. %i\n", i);
+        printf("Spørsmål nr. %i\n", i+1);
         stillSpm(gSpm[i]); 
         if (!(gKorrekteSvar % 10) && gKorrekteSvar > 0)
             printf("\n\t%i riktige svar!\n\n");
