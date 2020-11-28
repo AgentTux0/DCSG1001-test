@@ -1,0 +1,60 @@
+Hvilken kommando bruker du for å endre working directory?
+cd
+Hvilken kommando vil du bruke for å flytte en fil?
+mv
+Hvilken kommando vil du bruke for å kopiere en fil?
+cp
+Hvilken kommando vil du bruke for å legge til en ny bruker?
+useradd
+Skriv kommandoen for å lage en ny bruker som heter max, med default home directory
+useradd -m max
+Skriv kommandoen for å lage tre directories: filer, programmering og infrastruktur
+mkdir filer programmering infrastruktur
+Skriv kommandoen (med brace expansion) for å lage ti directories: n1, n2, ..., n10
+mkdir n{1..10}
+Skriv kommandoen for å fjerne et directory kalt Pictures
+rm -r Pictures
+Skriv kommandoen for å se den prosessene til den aktive brukeren
+ps
+Skriv kommandoen for å skrive innholdet til en fil i terminalvinduet (ikke paging)
+cat
+Skriv kommandoen for å søke etter kommandoer relevant til et søkeord
+apropos
+Skriv kommandoen for å slette filen movie.mp4, men med en prompt som sjekker at du faktisk vil slette filen:
+rm -i movie.mp4
+Skriv kommandoen for å lese innholdet til filen harryPotter.txt med paging
+less harryPotter.txt
+Hvilken kommando skriver pathen til det aktive directoriet?
+pwd
+Hvilken kommando kan du bruke for å lukke terminalen?
+exit
+Hvilken kommando er nyttig dersom du ønsker å se informasjon om nettverket og nettverksgrensesnittet?
+ip
+Hvordan kan du skrive ut innholdet til filen handleliste.txt i sortert rekkefølge (med pipeline)?
+cat handleliste.txt | sort
+Hvilken kommando lar deg søke etter linjer som inneholder et spesifisert pattern? (ikke awk)
+grep
+Hvilken kommando skriver ut informasjon om diskstørrelsen til et filsystem, og mengden brukt/fri diskplass?
+df
+Hvilken kommando lar deg endre rettighetene til en fil?
+chmod
+Hvilken kommando lar deg se alle prosessene og systeminformasjon i sanntid?
+top
+Hvilken kommando ville du brukt for å avslutte prosess med PID 7723?
+kill 7723
+Hvilken kommando lar deg se de 10 siste linjene av en fil?
+tail
+Skriv kommandoen for å endre primærgruppen til brukeren Kelly til gruppen wheel
+usermod -g wheel Kelly
+Skriv kommandoen for å legge til execute rettigheter til filen script.py for den aktive brukeren (med symbolic representation)
+chmod +x script.py
+Skriv kommandoen for å liste (alt)  innholdet i det nåværende directoriet på listeform med human readable format
+ls -lah
+Skriv kommandoen for å endre navn på filen før.txt til etter.html
+mv før.txt etter.html
+Skriv kommandoen for å utføre og skrive den aritmetiske operasjonen (2+2)/4 til skjermen (Ingen ekstra mellomrom)
+echo $(((2+2)/4))
+Hvilken fil må du legge aliaser til for at de skal forbli etter at du har lukket terminalvinduet? (hvis du bruker bash)
+.bashrc
+Hvilken kommando vil la deg se de ulike hoppene nettverkspakkene reiser over nettverket til en gitt vert?
+traceroute
