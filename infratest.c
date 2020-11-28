@@ -22,7 +22,7 @@
 
 // CONSTER //
 #define MAXSPM 100
-#define STRLEN 80
+#define STRLEN 200
 
 // STRUCTER //
 struct Spm {
